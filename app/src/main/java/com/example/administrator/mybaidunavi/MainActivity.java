@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.Window;
 import android.widget.AdapterView;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ListView;
 import android.widget.Toast;
@@ -188,7 +189,6 @@ public class MainActivity extends Activity implements BaiduMap.OnMapClickListene
                             overlay.addToMap();
                             overlay.zoomToSpan();
                         }
-
                     });
                     myTransitDlg.show();
                     hasShownDialogue = true;
